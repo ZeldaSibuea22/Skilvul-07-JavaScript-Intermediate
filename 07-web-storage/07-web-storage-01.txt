@@ -1,0 +1,17 @@
+1. Apa itu local Storage?
+--> Merupakan suatu penyimpanan data pada website yang hanya dapat diakses melalui client side, sehingga web server
+    tidak dapat melakukan akses secara langsung.
+    Atau bisa dikatakan merupakan sebuah penyimpanan data yang tidak memiliki masa expired. 
+    Jadi data itu terus tersimpan di host.Penggunaan local storage, selain mengamankan ketika push data ke server, 
+    ketika token habis dilakukan untuk penyimpanan token untuk user.
+
+2. Apa itu cookies?
+--> Merupakan file teks berisi potongan kecil data yang dibuat oleh situs yang pengguna kunjungi.
+    situs web menggunakan cookies untuk memudahkan pengguna, yang mana tanpanya pengguna harus 
+    login lagi setelah meninggalkan situs.
+    Cookies merupakan storage yang paling kecil. Biasanya digunakan untuk menyimpan akses token (yg tebaik) karena paling aman ketika 
+    menerima token itu tidak langsung  disimpan, dan berbeda caranya menyimpan degan yang lain. Ukuran maksimalnya yaitu 4KB
+
+3. Apa perbedaan antara localStorage dan sessionStorage?
+--> Data pada localStorage akan tersimpan secara permanen dan harus dihapus secara manual, 
+    sedangkan pada sessionStorage ketik tab website ditutup data akan ikut hilang.
