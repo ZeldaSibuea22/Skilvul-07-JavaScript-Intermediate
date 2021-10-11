@@ -58,7 +58,7 @@ const arr_03 = [
       }
       return null
   }
-  
+ 
   console.log(searchInArray(arr_03, 3));
   console.log(searchInArray(arr_03, 2));
   console.log(searchInArray(arr_03, 4));
