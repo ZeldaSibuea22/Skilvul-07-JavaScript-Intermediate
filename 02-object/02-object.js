@@ -67,6 +67,7 @@ console.log(isMilkVegan)
 
 
 //----------SOAL 03-------------
+
 // dibawah ini merupakan history transasksi yang telah kalian lakukan
 console.log("-----SOAL 03-----")
 const items = [{
